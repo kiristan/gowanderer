@@ -5,8 +5,6 @@ import (
 	"math"
 	"runtime"
 	"time"
-
-	"github.com/kiristan/stringutil"
 )
 
 const Pi = 3.14
@@ -16,10 +14,8 @@ const (
 )
 
 func main() {
-
-	fmt.Println(stringutil.Reverse("Reversed !oG ,olleH"))
 	fmt.Println("Hello, world.")
-
+	fmt.Println("Modifica per testare il commit")
 	var x, y int = 3, 7
 	var f float64 = math.Sqrt(float64(x*x + y*y))
 	var z uint = uint(f)
